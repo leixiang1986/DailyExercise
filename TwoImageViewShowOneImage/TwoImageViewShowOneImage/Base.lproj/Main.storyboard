@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p1U-Tb-PTK">
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="test.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="cJk-ev-ucc">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="150" id="do5-qn-fDb"/>
+                                            <constraint firstAttribute="width" constant="300" id="skK-L7-7bz"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="test.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="7Zj-Ob-OLg">
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="300" id="DAQ-vw-Ql1"/>
+                                            <constraint firstAttribute="height" constant="150" id="qtr-th-I0S"/>
+                                        </constraints>
+                                    </imageView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OlV-Kw-Yaq">
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="OlV-Kw-Yaq" firstAttribute="leading" secondItem="p1U-Tb-PTK" secondAttribute="leading" id="0OF-dP-Cfg"/>
+                                    <constraint firstItem="cJk-ev-ucc" firstAttribute="centerX" secondItem="p1U-Tb-PTK" secondAttribute="centerX" id="2Yd-fL-UfR"/>
+                                    <constraint firstItem="7Zj-Ob-OLg" firstAttribute="centerY" secondItem="p1U-Tb-PTK" secondAttribute="centerY" id="7ch-Bp-ZaZ"/>
+                                    <constraint firstItem="7Zj-Ob-OLg" firstAttribute="centerX" secondItem="p1U-Tb-PTK" secondAttribute="centerX" id="8bx-Au-sKf"/>
+                                    <constraint firstAttribute="bottom" secondItem="OlV-Kw-Yaq" secondAttribute="bottom" id="JVI-Gv-pCT"/>
+                                    <constraint firstItem="cJk-ev-ucc" firstAttribute="centerY" secondItem="p1U-Tb-PTK" secondAttribute="centerY" id="Lhn-aC-mNb"/>
+                                    <constraint firstAttribute="height" constant="300" id="WAP-nE-Tjm"/>
+                                    <constraint firstItem="OlV-Kw-Yaq" firstAttribute="top" secondItem="p1U-Tb-PTK" secondAttribute="top" id="ZFW-Y3-4Ch"/>
+                                    <constraint firstAttribute="width" constant="300" id="ZiI-jP-UQf"/>
+                                    <constraint firstAttribute="trailing" secondItem="OlV-Kw-Yaq" secondAttribute="trailing" id="xHQ-Tg-n4L"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="p1U-Tb-PTK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Bg1-lb-3hP"/>
+                            <constraint firstItem="p1U-Tb-PTK" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="oX9-9V-lZR"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="bottomView" destination="7Zj-Ob-OLg" id="xFJ-uk-RSX"/>
+                        <outlet property="panView" destination="OlV-Kw-Yaq" id="IgO-C4-u6m"/>
+                        <outlet property="topView" destination="cJk-ev-ucc" id="mJU-zN-O1i"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="116" y="92.203898050974516"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="test.jpg" width="192" height="192"/>
+    </resources>
+</document>
