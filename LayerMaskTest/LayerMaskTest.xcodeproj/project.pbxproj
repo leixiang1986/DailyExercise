@@ -13,6 +13,8 @@
 		D308EA3A1E495C75001F077D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D308EA381E495C75001F077D /* Main.storyboard */; };
 		D308EA3C1E495C75001F077D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D308EA3B1E495C75001F077D /* Assets.xcassets */; };
 		D308EA3F1E495C75001F077D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D308EA3D1E495C75001F077D /* LaunchScreen.storyboard */; };
+		D308EA481E495FD9001F077D /* TestMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = D308EA471E495FD9001F077D /* TestMaskView.m */; };
+		D308EA4A1E49629F001F077D /* test0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D308EA491E49629F001F077D /* test0.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		D308EA3B1E495C75001F077D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D308EA3E1E495C75001F077D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D308EA401E495C75001F077D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D308EA461E495FD9001F077D /* TestMaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestMaskView.h; sourceTree = "<group>"; };
+		D308EA471E495FD9001F077D /* TestMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestMaskView.m; sourceTree = "<group>"; };
+		D308EA491E49629F001F077D /* test0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test0.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +47,7 @@
 		D308EA231E495C74001F077D = {
 			isa = PBXGroup;
 			children = (
+				D308EA491E49629F001F077D /* test0.jpg */,
 				D308EA2E1E495C75001F077D /* LayerMaskTest */,
 				D308EA2D1E495C75001F077D /* Products */,
 			);
@@ -62,6 +68,8 @@
 				D308EA331E495C75001F077D /* AppDelegate.m */,
 				D308EA351E495C75001F077D /* ViewController.h */,
 				D308EA361E495C75001F077D /* ViewController.m */,
+				D308EA461E495FD9001F077D /* TestMaskView.h */,
+				D308EA471E495FD9001F077D /* TestMaskView.m */,
 				D308EA381E495C75001F077D /* Main.storyboard */,
 				D308EA3B1E495C75001F077D /* Assets.xcassets */,
 				D308EA3D1E495C75001F077D /* LaunchScreen.storyboard */,
@@ -138,6 +146,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D308EA4A1E49629F001F077D /* test0.jpg in Resources */,
 				D308EA3F1E495C75001F077D /* LaunchScreen.storyboard in Resources */,
 				D308EA3C1E495C75001F077D /* Assets.xcassets in Resources */,
 				D308EA3A1E495C75001F077D /* Main.storyboard in Resources */,
@@ -151,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D308EA481E495FD9001F077D /* TestMaskView.m in Sources */,
 				D308EA371E495C75001F077D /* ViewController.m in Sources */,
 				D308EA341E495C75001F077D /* AppDelegate.m in Sources */,
 				D308EA311E495C75001F077D /* main.m in Sources */,
@@ -273,6 +283,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = W222R58V26;
 				INFOPLIST_FILE = LayerMaskTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jhsys.LayerMaskTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -285,6 +296,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = W222R58V26;
 				INFOPLIST_FILE = LayerMaskTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jhsys.LayerMaskTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
