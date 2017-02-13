@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "PredicateViewController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
@@ -44,7 +45,7 @@
 
 - (NSArray *)titles {
     if (!_titles) {
-        _titles = @[@"copy"];
+        _titles = @[@"copy",@"predicate"];
     }
     return _titles;
 }
@@ -59,6 +60,13 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"baseCell"];
     cell.textLabel.text = _titles[indexPath.row];
     return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    if (indexPath.row == 1) {
+        PredicateViewController *vc = [[PredicateViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
 }
 
 

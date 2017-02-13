@@ -51,6 +51,11 @@
 
 
 
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    NSLog(@"%@",segue.identifier);
+
+}
+
 //- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 //    switch (indexPath.row) {
 //        case 0: //label

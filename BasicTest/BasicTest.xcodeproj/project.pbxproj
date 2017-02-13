@@ -14,6 +14,8 @@
 		D308EB6A1E4C77FC001F077D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D308EB691E4C77FC001F077D /* Assets.xcassets */; };
 		D308EB6D1E4C77FC001F077D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D308EB6B1E4C77FC001F077D /* LaunchScreen.storyboard */; };
 		D308EB761E4C7A68001F077D /* CopyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D308EB751E4C7A68001F077D /* CopyViewController.m */; };
+		D35EB7AE1E4D908E00F7B038 /* CopyTestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D35EB7AD1E4D908E00F7B038 /* CopyTestModel.m */; };
+		D35EB7B11E4D9FD300F7B038 /* PredicateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D35EB7B01E4D9FD300F7B038 /* PredicateViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		D308EB6E1E4C77FC001F077D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D308EB741E4C7A68001F077D /* CopyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CopyViewController.h; sourceTree = "<group>"; };
 		D308EB751E4C7A68001F077D /* CopyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CopyViewController.m; sourceTree = "<group>"; };
+		D35EB7AC1E4D908E00F7B038 /* CopyTestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CopyTestModel.h; sourceTree = "<group>"; };
+		D35EB7AD1E4D908E00F7B038 /* CopyTestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CopyTestModel.m; sourceTree = "<group>"; };
+		D35EB7AF1E4D9FD300F7B038 /* PredicateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PredicateViewController.h; sourceTree = "<group>"; };
+		D35EB7B01E4D9FD300F7B038 /* PredicateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PredicateViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +71,12 @@
 				D308EB611E4C77FC001F077D /* AppDelegate.m */,
 				D308EB631E4C77FC001F077D /* ViewController.h */,
 				D308EB641E4C77FC001F077D /* ViewController.m */,
+				D35EB7AF1E4D9FD300F7B038 /* PredicateViewController.h */,
+				D35EB7B01E4D9FD300F7B038 /* PredicateViewController.m */,
 				D308EB741E4C7A68001F077D /* CopyViewController.h */,
 				D308EB751E4C7A68001F077D /* CopyViewController.m */,
+				D35EB7AC1E4D908E00F7B038 /* CopyTestModel.h */,
+				D35EB7AD1E4D908E00F7B038 /* CopyTestModel.m */,
 				D308EB661E4C77FC001F077D /* Main.storyboard */,
 				D308EB691E4C77FC001F077D /* Assets.xcassets */,
 				D308EB6B1E4C77FC001F077D /* LaunchScreen.storyboard */,
@@ -156,9 +166,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D35EB7B11E4D9FD300F7B038 /* PredicateViewController.m in Sources */,
 				D308EB651E4C77FC001F077D /* ViewController.m in Sources */,
 				D308EB761E4C7A68001F077D /* CopyViewController.m in Sources */,
 				D308EB621E4C77FC001F077D /* AppDelegate.m in Sources */,
+				D35EB7AE1E4D908E00F7B038 /* CopyTestModel.m in Sources */,
 				D308EB5F1E4C77FC001F077D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,6 +330,7 @@
 				D308EB731E4C77FC001F077D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

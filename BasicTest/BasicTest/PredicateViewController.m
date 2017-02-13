@@ -17,7 +17,20 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+
+
 }
+
+//从数组中过滤出一定条件的元素
+- (void)test1ArrayFilter {
+    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"self isKindOfClass:%@",[UIButton class]];
+    NSArray *buttons = [self.view.subviews filteredArrayUsingPredicate:predicate];
+    for (UIButton *button in buttons){
+//        [button setBackgroundImageStretchableForState:UIControlStateNormal];
+    }
+}
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

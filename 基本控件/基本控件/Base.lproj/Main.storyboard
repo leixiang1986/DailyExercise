@@ -16,14 +16,14 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="XeR-wl-WaN">
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="baseCell" textLabel="TXp-eT-zsk" style="IBUITableViewCellStyleDefault" id="bG1-Mo-zGx">
-                                        <rect key="frame" x="0.0" y="92" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bG1-Mo-zGx" id="Peh-UZ-OZn">
                                             <frame key="frameInset" width="342" height="43"/>
@@ -39,11 +39,11 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="CVM-aS-iwO" kind="push" id="JoN-vn-DT3"/>
+                                            <segue destination="LDu-hX-hUj" kind="push" identifier="label" id="9tf-BG-J1c"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="1TA-xc-E9a" style="IBUITableViewCellStyleDefault" id="hnZ-aq-8Bl">
-                                        <rect key="frame" x="0.0" y="136" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="72" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="hnZ-aq-8Bl" id="Ni1-hg-njZ">
                                             <frame key="frameInset" width="342" height="43"/>
@@ -59,14 +59,14 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="LDu-hX-hUj" kind="push" id="gy0-c5-5WN"/>
+                                            <segue destination="LDu-hX-hUj" kind="push" identifier="button" id="WDG-e9-hxO"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="MEJ-CY-JvD">
-                                        <rect key="frame" x="0.0" y="180" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="116" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="MEJ-CY-JvD" id="hKW-9t-nEx">
-                                            <frame key="frameInset" width="375" height="43"/>
+                                            <frame key="frameInset" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -86,6 +86,7 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="XeR-wl-WaN" secondAttribute="bottom" id="mGt-xt-dg8"/>
                         </constraints>
                     </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
                     <navigationItem key="navigationItem" id="qsp-wT-IFL"/>
                     <connections>
                         <outlet property="tableView" destination="XeR-wl-WaN" id="Phb-3X-tMw"/>
@@ -106,13 +107,20 @@
                     <view key="view" contentMode="scaleToFill" id="vSj-k9-VZt">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cnz-SS-UzL">
+                                <frame key="frameInset" minX="115" minY="105" width="83" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="CLA-mO-bAQ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BYF-5g-8oN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1802" y="-233"/>
+            <point key="canvasLocation" x="1864.8" y="-519.49025487256381"/>
         </scene>
         <!--Label View Controller-->
         <scene sceneID="JmG-0h-Xth">
@@ -123,7 +131,7 @@
                         <viewControllerLayoutGuide type="bottom" id="geC-PY-MzX"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="zKD-pC-m14">
-                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label阿斯顿发阿斯顿发阿斯顿发阿斯顿发" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="1Md-CL-oNG">
@@ -164,7 +172,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y5w-G7-AI3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1359" y="-1146"/>
+            <point key="canvasLocation" x="1874" y="-1206"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Qm9-4S-RMh">
@@ -185,4 +193,7 @@
             <point key="canvasLocation" x="116" y="690.40479760119945"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="9tf-BG-J1c"/>
+    </inferredMetricsTieBreakers>
 </document>

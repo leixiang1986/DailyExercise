@@ -9,5 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface CopyTestModel : NSObject
-
+@property (nonatomic,copy) NSString *nameOfCopy;
+@property (nonatomic,strong) NSString *nameOfStrong;
 @end

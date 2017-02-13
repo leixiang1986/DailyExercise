@@ -15,6 +15,11 @@
 		D308EAB81E4AB7A7001F077D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D308EAB61E4AB7A7001F077D /* LaunchScreen.storyboard */; };
 		D308EAC11E4AB8CA001F077D /* LabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D308EAC01E4AB8CA001F077D /* LabelViewController.m */; };
 		D308EAC41E4AB909001F077D /* ButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D308EAC31E4AB909001F077D /* ButtonViewController.m */; };
+		D35EB7B81E4DA4A000F7B038 /* arrow_down_black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D35EB7B61E4DA4A000F7B038 /* arrow_down_black@2x.png */; };
+		D35EB7B91E4DA4A000F7B038 /* arrow_down_black@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D35EB7B71E4DA4A000F7B038 /* arrow_down_black@3x.png */; };
+		D35EB7BC1E4DA4E200F7B038 /* share_propertyRecord@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D35EB7BA1E4DA4E200F7B038 /* share_propertyRecord@2x.png */; };
+		D35EB7BD1E4DA4E200F7B038 /* share_propertyRecord@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D35EB7BB1E4DA4E200F7B038 /* share_propertyRecord@3x.png */; };
+		D35EB7C41E4DB29100F7B038 /* UIButton+ImageAndTitleDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = D35EB7C31E4DB29100F7B038 /* UIButton+ImageAndTitleDisplay.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +37,12 @@
 		D308EAC01E4AB8CA001F077D /* LabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelViewController.m; sourceTree = "<group>"; };
 		D308EAC21E4AB909001F077D /* ButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonViewController.h; sourceTree = "<group>"; };
 		D308EAC31E4AB909001F077D /* ButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonViewController.m; sourceTree = "<group>"; };
+		D35EB7B61E4DA4A000F7B038 /* arrow_down_black@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow_down_black@2x.png"; sourceTree = "<group>"; };
+		D35EB7B71E4DA4A000F7B038 /* arrow_down_black@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow_down_black@3x.png"; sourceTree = "<group>"; };
+		D35EB7BA1E4DA4E200F7B038 /* share_propertyRecord@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_propertyRecord@2x.png"; sourceTree = "<group>"; };
+		D35EB7BB1E4DA4E200F7B038 /* share_propertyRecord@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_propertyRecord@3x.png"; sourceTree = "<group>"; };
+		D35EB7C21E4DB29100F7B038 /* UIButton+ImageAndTitleDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImageAndTitleDisplay.h"; sourceTree = "<group>"; };
+		D35EB7C31E4DB29100F7B038 /* UIButton+ImageAndTitleDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImageAndTitleDisplay.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +59,10 @@
 		D308EA9C1E4AB7A7001F077D = {
 			isa = PBXGroup;
 			children = (
+				D35EB7BA1E4DA4E200F7B038 /* share_propertyRecord@2x.png */,
+				D35EB7BB1E4DA4E200F7B038 /* share_propertyRecord@3x.png */,
+				D35EB7B61E4DA4A000F7B038 /* arrow_down_black@2x.png */,
+				D35EB7B71E4DA4A000F7B038 /* arrow_down_black@3x.png */,
 				D308EAA71E4AB7A7001F077D /* 基本控件 */,
 				D308EAA61E4AB7A7001F077D /* Products */,
 			);
@@ -64,6 +79,8 @@
 		D308EAA71E4AB7A7001F077D /* 基本控件 */ = {
 			isa = PBXGroup;
 			children = (
+				D35EB7C21E4DB29100F7B038 /* UIButton+ImageAndTitleDisplay.h */,
+				D35EB7C31E4DB29100F7B038 /* UIButton+ImageAndTitleDisplay.m */,
 				D308EAAB1E4AB7A7001F077D /* AppDelegate.h */,
 				D308EAAC1E4AB7A7001F077D /* AppDelegate.m */,
 				D308EAAE1E4AB7A7001F077D /* ViewController.h */,
@@ -149,7 +166,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D308EAB81E4AB7A7001F077D /* LaunchScreen.storyboard in Resources */,
+				D35EB7BD1E4DA4E200F7B038 /* share_propertyRecord@3x.png in Resources */,
 				D308EAB51E4AB7A7001F077D /* Assets.xcassets in Resources */,
+				D35EB7BC1E4DA4E200F7B038 /* share_propertyRecord@2x.png in Resources */,
+				D35EB7B91E4DA4A000F7B038 /* arrow_down_black@3x.png in Resources */,
+				D35EB7B81E4DA4A000F7B038 /* arrow_down_black@2x.png in Resources */,
 				D308EAB31E4AB7A7001F077D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -166,6 +187,7 @@
 				D308EAAA1E4AB7A7001F077D /* main.m in Sources */,
 				D308EAC41E4AB909001F077D /* ButtonViewController.m in Sources */,
 				D308EAC11E4AB8CA001F077D /* LabelViewController.m in Sources */,
+				D35EB7C41E4DB29100F7B038 /* UIButton+ImageAndTitleDisplay.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +346,7 @@
 				D308EABE1E4AB7A7001F077D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
