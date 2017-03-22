@@ -14,6 +14,7 @@
 		D39019981E6E9D09006D52A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D39019971E6E9D09006D52A4 /* Assets.xcassets */; };
 		D390199B1E6E9D09006D52A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D39019991E6E9D09006D52A4 /* LaunchScreen.storyboard */; };
 		D39019A41E6E9E52006D52A4 /* TestPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = D39019A31E6E9E52006D52A4 /* TestPerson.m */; };
+		D39019A71E6EA8E9006D52A4 /* NSObject+KVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D39019A61E6EA8E9006D52A4 /* NSObject+KVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		D390199C1E6E9D09006D52A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D39019A21E6E9E52006D52A4 /* TestPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestPerson.h; sourceTree = "<group>"; };
 		D39019A31E6E9E52006D52A4 /* TestPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestPerson.m; sourceTree = "<group>"; };
+		D39019A51E6EA8E9006D52A4 /* NSObject+KVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+KVC.h"; sourceTree = "<group>"; };
+		D39019A61E6EA8E9006D52A4 /* NSObject+KVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVC.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				D390198F1E6E9D09006D52A4 /* AppDelegate.m */,
 				D39019911E6E9D09006D52A4 /* ViewController.h */,
 				D39019921E6E9D09006D52A4 /* ViewController.m */,
+				D39019A51E6EA8E9006D52A4 /* NSObject+KVC.h */,
+				D39019A61E6EA8E9006D52A4 /* NSObject+KVC.m */,
 				D39019941E6E9D09006D52A4 /* Main.storyboard */,
 				D39019971E6E9D09006D52A4 /* Assets.xcassets */,
 				D39019991E6E9D09006D52A4 /* LaunchScreen.storyboard */,
@@ -158,6 +163,7 @@
 			files = (
 				D39019931E6E9D09006D52A4 /* ViewController.m in Sources */,
 				D39019901E6E9D09006D52A4 /* AppDelegate.m in Sources */,
+				D39019A71E6EA8E9006D52A4 /* NSObject+KVC.m in Sources */,
 				D39019A41E6E9E52006D52A4 /* TestPerson.m in Sources */,
 				D390198D1E6E9D09006D52A4 /* main.m in Sources */,
 			);
@@ -318,6 +324,7 @@
 				D39019A11E6E9D09006D52A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
