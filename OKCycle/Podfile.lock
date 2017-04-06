@@ -1,0 +1,135 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - BaiduMapKit (3.0.0)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - Masonry (1.0.2)
+  - MBProgressHUD (1.0.0)
+  - MJRefresh (3.1.12)
+  - Okdeer-CommonLibrary (0.0.17):
+    - AFNetworking
+    - FMDB (~> 2.6.2)
+    - Masonry
+    - MBProgressHUD (~> 1.0.0)
+    - MJRefresh (~> 3.1.12)
+    - Okdeer-CommonLibrary/base (= 0.0.17)
+    - Okdeer-CommonLibrary/extension (= 0.0.17)
+    - Okdeer-CommonLibrary/MapManager (= 0.0.17)
+    - Okdeer-CommonLibrary/thirdPartManager (= 0.0.17)
+    - Okdeer-CommonLibrary/view (= 0.0.17)
+    - SDWebImage (~> 3.7.6)
+    - UMengAnalytics
+    - UMengUShare/Social/QQ
+    - UMengUShare/Social/Sina
+    - UMengUShare/Social/WeChat
+  - Okdeer-CommonLibrary/base (0.0.17):
+    - AFNetworking
+    - FMDB (~> 2.6.2)
+    - Masonry
+    - MBProgressHUD (~> 1.0.0)
+    - MJRefresh (~> 3.1.12)
+    - Okdeer-CommonLibrary/extension
+    - SDWebImage (~> 3.7.6)
+    - UMengAnalytics
+    - UMengUShare/Social/QQ
+    - UMengUShare/Social/Sina
+    - UMengUShare/Social/WeChat
+  - Okdeer-CommonLibrary/extension (0.0.17):
+    - AFNetworking
+    - FMDB (~> 2.6.2)
+    - Masonry
+    - MBProgressHUD (~> 1.0.0)
+    - MJRefresh (~> 3.1.12)
+    - SDWebImage (~> 3.7.6)
+    - UMengAnalytics
+    - UMengUShare/Social/QQ
+    - UMengUShare/Social/Sina
+    - UMengUShare/Social/WeChat
+  - Okdeer-CommonLibrary/MapManager (0.0.17):
+    - AFNetworking
+    - BaiduMapKit (~> 3.0.0)
+    - FMDB (~> 2.6.2)
+    - Masonry
+    - MBProgressHUD (~> 1.0.0)
+    - MJRefresh (~> 3.1.12)
+    - Okdeer-CommonLibrary/base
+    - Okdeer-CommonLibrary/view
+    - SDWebImage (~> 3.7.6)
+    - UMengAnalytics
+    - UMengUShare/Social/QQ
+    - UMengUShare/Social/Sina
+    - UMengUShare/Social/WeChat
+  - Okdeer-CommonLibrary/thirdPartManager (0.0.17):
+    - AFNetworking
+    - FMDB (~> 2.6.2)
+    - Masonry
+    - MBProgressHUD (~> 1.0.0)
+    - MJRefresh (~> 3.1.12)
+    - SDWebImage (~> 3.7.6)
+    - UMengAnalytics
+    - UMengFeedback
+    - UMengUShare/Social/QQ
+    - UMengUShare/Social/Sina
+    - UMengUShare/Social/WeChat
+  - Okdeer-CommonLibrary/view (0.0.17):
+    - AFNetworking
+    - FMDB (~> 2.6.2)
+    - Masonry
+    - MBProgressHUD (~> 1.0.0)
+    - MJRefresh (~> 3.1.12)
+    - Okdeer-CommonLibrary/base
+    - Okdeer-CommonLibrary/extension
+    - SDWebImage (~> 3.7.6)
+    - UMengAnalytics
+    - UMengUShare/Social/QQ
+    - UMengUShare/Social/Sina
+    - UMengUShare/Social/WeChat
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
+  - UMengAnalytics (4.2.4)
+  - UMengFeedback (2.3.4)
+  - UMengUShare/Core (6.3.0):
+    - UMengUShare/Network
+  - UMengUShare/Network (6.3.0)
+  - UMengUShare/Social/QQ (6.3.0):
+    - UMengUShare/Core
+  - UMengUShare/Social/Sina (6.3.0):
+    - UMengUShare/Core
+  - UMengUShare/Social/WeChat (6.3.0):
+    - UMengUShare/Core
+
+DEPENDENCIES:
+  - Okdeer-CommonLibrary
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  BaiduMapKit: de2a726d5296d6b2dc0e974b683af73153608dcd
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  Okdeer-CommonLibrary: e2a022cf93f9e0d51ab95edcef44563d2fa4e3cb
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+  UMengAnalytics: ef8d45f94c0e5771dc364cf6a5731d9d3b101da2
+  UMengFeedback: 5283cc0e324dffca4dd54c4abb3cbded56487817
+  UMengUShare: b208ac3bcf1f63d11a100b359990e9d77a0f2085
+
+PODFILE CHECKSUM: b7ac6dda853663d4da719bfb2fa1e0c6a567d179
+
+COCOAPODS: 1.1.1

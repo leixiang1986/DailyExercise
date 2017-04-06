@@ -27,7 +27,7 @@
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
         [self amountAttributes];
-
+        self.selectionStyle = UITableViewCellSelectionStyleNone;
         [self.textLabel addObserver:self forKeyPath:@"text" options:(NSKeyValueObservingOptionOld|NSKeyValueObservingOptionNew) context:nil];
 
     }
@@ -100,7 +100,13 @@
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
-
+    NSLog(@"setSelected:%d----%ld",selected,_indexPath.row);
+    if (selected) {
+        self.backgroundColor = [UIColor yellowColor];
+    }
+    else {
+        self.backgroundColor = [UIColor whiteColor];
+    }
     // Configure the view for the selected state
 }
 

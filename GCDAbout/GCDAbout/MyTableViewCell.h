@@ -10,4 +10,5 @@
 
 @interface MyTableViewCell : UITableViewCell
 @property (nonatomic,strong) NSDictionary *amountAttributes;
+@property (nonatomic,copy) NSIndexPath *indexPath;
 @end
